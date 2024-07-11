@@ -1,0 +1,53 @@
+.inner {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.nav {
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    display: flex;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 400px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0 15px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.menus {
+    align-items: center;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    margin: 100px auto;
+    width: 400px;
+}
+
+.menus-ttl {
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.menu1 {
+    background: gray;
+}
+
+.menu2 {
+    background: orange;
+}
+
+.menu3 {
+    background: green;
+}
