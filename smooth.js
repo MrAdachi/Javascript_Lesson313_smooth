@@ -9,7 +9,7 @@ for(let i = 0; i < smoothScrollTrigger.length; i++){
         let href = smoothScrollTrigger[i].getAttribute('href');
         // hrefの'#'を空文字に置換する（＝削除）
         let targetElement = document.getElementById(href.replace('#', ''));
-        // 要素の寸法を返す（top → 現在のページの上端（viewportの範囲）からスクロールされたピクセル数を取得）
+        // 要素の寸法を返す（top → 要素の上端の位置（ビューポートからの距離）を取得）
         const rect = targetElement.getBoundingClientRect().top;
         // 文書が現在垂直方向にスクロールしているピクセル数を返す
         const offset = window.scrollY;
